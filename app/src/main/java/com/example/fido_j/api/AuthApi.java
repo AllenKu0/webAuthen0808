@@ -56,7 +56,8 @@ public class AuthApi {
             })
             .build();
 
-    private final String BASE_URL = "https://entertaining-maddening-beluga.glitch.me/auth";
+    private final String BASE_URL = "https://10.0.0.43/api/";
+    //https://entertaining-maddening-beluga.glitch.me/auth
     public void username(String username){
         this.username=username;
         MediaType JSON
